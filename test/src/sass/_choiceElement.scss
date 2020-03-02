@@ -1,0 +1,29 @@
+.choiceElement {
+    background-color: inherit;
+    width: fit-content;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    height: 50px;
+    font: 700 20px 'Bitter';
+    text-align: center;
+    border: 3px solid #85aae5;
+    color: #85aae5;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.choiceElement:hover{
+    background: #85aae5;
+    color: aliceblue;
+}
+.boyOrGirl {
+    margin: 3vh;
+    text-align: center;
+    line-height: 80px;
+}
+.clicked{
+    background-color: #85aae5;
+    color: white;
+    text-decoration: none;
+
+}
